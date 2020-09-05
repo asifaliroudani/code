@@ -1,4 +1,9 @@
 numbers = [1, 2, 30, 4, 5]
+largest = numbers[0]
+for x in numbers:
+    if x > largest:
+        largest = x
+print(largest)
 
 # method:1
 
